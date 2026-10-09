@@ -1,0 +1,1 @@
+Place certificate files here. Supported previews: certificate-01.jpg, certificate-01.png or certificate-01.webp. Certificate PDFs can be linked manually in index.html after verifying their content and naming.
