@@ -318,10 +318,12 @@ body.intro-sequence .intro-animation{animation:intro-fade 1.6s ease both}
 @media(prefers-reduced-motion:reduce){.button:hover,.github-link:hover,.gallery-arrow:hover,.hero-actions .button-primary:hover,.project-open:hover .project-cover,.zakalka-card-image:hover img{transform:none!important}}
 @media(max-width:680px){html[lang="ru"] .hero h1{font-size:clamp(38px,12vw,80px);line-height:.82;max-width:100%}html[lang="ru"] .intro h2{font-size:clamp(44px,12vw,74px)}html[lang="ru"] .skills-title h2{font-size:clamp(47px,12.5vw,74px)}html[lang="ru"] .gallery-heading h2{font-size:clamp(51px,13.8vw,82px)}html[lang="ru"] .work-heading h2{font-size:clamp(60px,15.64vw,97px)}html[lang="ru"] .anvil-copy h2{font-size:clamp(78px,17vw,112px)}html[lang="ru"] .code-layout h2{font-size:clamp(67px,16.56vw,103px)}html[lang="ru"] .cert-block h2{font-size:clamp(64px,14vw,80px)}html[lang="ru"] .contact h2{font-size:clamp(73px,18.4vw,121px)}}
 .hero h1 .surname-line,.intro h2 span{color:var(--amber)}
-@media(max-width:680px){html[lang="ru"] .hero h1{font-family:'Inter','Space Grotesk',Arial,sans-serif}}
+html[lang="ru"] .hero h1{font-family:'Roboto Condensed','Arial Narrow',Arial,sans-serif;font-weight:500;letter-spacing:-.075em}
+html[lang="ru"] .hero-star{font-family:'Space Grotesk',Arial,sans-serif;font-weight:600}
 
 .skill-level{color:var(--amber);margin:-7px 0 14px;font-size:9px}
 
 /* Keep scroll motion light on touch devices: a fixed blur and oversized animated grain layer are costly to composite. */
 .grain{inset:0;animation:none}
 @media(max-width:900px){.topbar{backdrop-filter:none;-webkit-backdrop-filter:none}}
+@media(max-width:680px){html[lang="ru"] .hero h1{font-size:clamp(48px,15.6vw,104px);line-height:.76;width:110%;max-width:none;letter-spacing:-.105em;transform:scaleX(1.10) scaleY(1.04);transform-origin:left center}html[lang="ru"] .hero h1 .hero-star{font-size:.18em}}
